@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="Base.RegisterPages" class="method navigator-link" hash-for-method="run(ITEM 1, d, a, , , 3232, 11, 22, invalid)">run(ITEM 1, d, a, , , 3232, 11, 22, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Base.RegisterPages" class="method navigator-link" hash-for-method="run(, , , , , , , , blank)">run(, , , , , , , , blank)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -139,6 +144,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="run(, , , , , , , , blank)">
+                  </a> <!-- run(, , , , , , , , blank) -->
+                  <span class="method-name">run</span>
+                  <span class="parameters">(,,,,,,,,blank)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="run(ITEM 1, Aditya, MAGAR, aditya@gmai.com, 7776836496, 7776836496, 123@er, 123@er, Valid)">
                   </a> <!-- run(ITEM 1, Aditya, MAGAR, aditya@gmai.com, 7776836496, 7776836496, 123@er, 123@er, Valid) -->
                   <span class="method-name">run</span>
@@ -150,7 +163,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/6f/6bbkn9cn7sj8fx8kp4_vhrgh0000gn/T/testng-eclipse--1438653038/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/6f/6bbkn9cn7sj8fx8kp4_vhrgh0000gn/T/testng-eclipse--115892374/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -199,15 +212,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'run')
 data.setCell(0, 2, 'Base.RegisterPages')
-data.setCell(0, 3, 791);
+data.setCell(0, 3, 928);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'run')
 data.setCell(1, 2, 'Base.RegisterPages')
-data.setCell(1, 3, 399);
+data.setCell(1, 3, 368);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'run')
+data.setCell(2, 2, 'Base.RegisterPages')
+data.setCell(2, 3, 304);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -245,31 +262,43 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">567 ms</span>
+                <span class="method-start">565 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">run(ITEM 1, Aditya, MAGAR, aditya@gmai.com, 7776836496, 7776836496, 123@er, 123@er, Valid)</span>
-                <span class="method-start">3227 ms</span>
+                <span class="method-start">3508 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">end</span>
-                <span class="method-start">4020 ms</span>
+                <span class="method-start">4439 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4021 ms</span>
+                <span class="method-start">4550 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">run(ITEM 1, d, a, , , 3232, 11, 22, invalid)</span>
-                <span class="method-start">5735 ms</span>
+                <span class="method-start">6539 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">end</span>
-                <span class="method-start">6135 ms</span>
+                <span class="method-start">6907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">run(, , , , , , , , blank)</span>
+                <span class="method-start">9183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">9488 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">flushReport</span>
-                <span class="method-start">6137 ms</span>
+                <span class="method-start">9553 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
