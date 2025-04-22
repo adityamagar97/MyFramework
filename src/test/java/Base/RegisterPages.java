@@ -62,8 +62,7 @@ public class RegisterPages extends baseClass {
 			    Assert.assertEquals(actualError, expectedError);
 			    test.pass("Test Passed for Longemail");
 			} catch (AssertionError e) {
-			    test.fail("Test Failed for Longemail:\nExpected: Please enter a valid email address.\nBut was: " 
-			              + driver.findElement(By.xpath("//*[@id='email-error']")).getText());
+			   
 			    throw e;
 			}
 
