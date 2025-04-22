@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 22 15:01:49 IST 2025</td>
+<td>Started on:</td><td>Tue Apr 22 15:22:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12041 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10942 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,10 +77,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Base.RegisterPages.run()'><b>run</b><br>Test class: Base.RegisterPages<br>Parameters: ITEM 1, Aditya, MAGAR, adsdsa@gmail.com.comG@gmaisom,s, 7776836496, 7776836496, 123@er, 123@er, LongEmail</td>
-<td><div><pre>java.lang.AssertionError: expected:&lt;Please enter a valid email address.&gt; but was:&lt;Please enter a vsssalid email address.&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
-	at Base.RegisterPages.run(RegisterPages.java:59)
+<td><div><pre>java.lang.AssertionError: expected [Please enter a vaasslid email address.] but found [Please enter a valid email address.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Base.RegisterPages.run(RegisterPages.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -109,11 +113,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1955226954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1955226954'><pre>java.lang.AssertionError: expected:&lt;Please enter a valid email address.&gt; but was:&lt;Please enter a vsssalid email address.&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
-	at Base.RegisterPages.run(RegisterPages.java:59)
+</pre></div><a href='#' onClick='toggleBox("stack-trace576902869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace576902869'><pre>java.lang.AssertionError: expected [Please enter a vaasslid email address.] but found [Please enter a valid email address.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Base.RegisterPages.run(RegisterPages.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -155,7 +163,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Base.RegisterPages.run()'><b>run</b><br>Test class: Base.RegisterPages<br>Parameters: , , , , , , , , blank</td>
+<td title='Base.RegisterPages.run()'><b>run</b><br>Test class: Base.RegisterPages<br>Parameters: ITEM 1, Aditya, MAGAR, aditya@gmai.com, 7776836496, 7776836496, 123@er, 123@er, Valid</td>
 <td></td>
 <td>0</td>
 <td>Base.RegisterPages@4d9e68d0</td></tr>
@@ -165,9 +173,9 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>Base.RegisterPages@4d9e68d0</td></tr>
 <tr>
-<td title='Base.RegisterPages.run()'><b>run</b><br>Test class: Base.RegisterPages<br>Parameters: ITEM 1, Aditya, MAGAR, aditya@gmai.com, 7776836496, 7776836496, 123@er, 123@er, Valid</td>
+<td title='Base.RegisterPages.run()'><b>run</b><br>Test class: Base.RegisterPages<br>Parameters: , , , , , , , , blank</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>Base.RegisterPages@4d9e68d0</td></tr>
 </table><p>
 </body>

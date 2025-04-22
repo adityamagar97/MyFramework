@@ -44,7 +44,7 @@ public class RegisterPages extends baseClass {
 		rp.regis();
 		
 		if(conditio.equals("Valid")) {
-			AssertJUnit.assertEquals(driver.getTitle(),"" );
+			AssertJUnit.assertEquals(driver.findElement(By.xpath("//*[@id=\"main_content\"]/h2")).getText(),"Your Account" );
 			System.out.println("Test Passed for VALID data: ");
 		}
 		else if(conditio.equals("invalid")) {
@@ -56,9 +56,17 @@ public class RegisterPages extends baseClass {
 			System.out.println("Test Passed for Blank Data data");
 		}
 		else if(conditio.equals("LongEmail")) {
-			AssertJUnit.assertEquals(driver.findElement(By.xpath("//*[@id=\"email-error\"]")).getText(),"Please enter a vsssalid email address." );
-			System.out.println("Test Passed for Longemail");
-		
+			try {
+			    String actualError = driver.findElement(By.xpath("//*[@id='email-error']")).getText();
+			    String expectedError = "Please enter a vaasslid email address.";
+			    Assert.assertEquals(actualError, expectedError);
+			    test.pass("Test Passed for Longemail");
+			} catch (AssertionError e) {
+			    test.fail("Test Failed for Longemail:\nExpected: Please enter a valid email address.\nBut was: " 
+			              + driver.findElement(By.xpath("//*[@id='email-error']")).getText());
+			    throw e;
+			}
+
 		}
 	}
 	

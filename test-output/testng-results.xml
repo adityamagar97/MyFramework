@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T15:01:49 IST" name="Default suite" finished-at="2025-04-22T15:02:01 IST" duration-ms="12041">
+  <suite started-at="2025-04-22T15:22:58 IST" name="Default suite" finished-at="2025-04-22T15:23:09 IST" duration-ms="10942">
     <groups>
     </groups>
-    <test started-at="2025-04-22T15:01:49 IST" name="Default test" finished-at="2025-04-22T15:02:01 IST" duration-ms="12041">
+    <test started-at="2025-04-22T15:22:58 IST" name="Default test" finished-at="2025-04-22T15:23:09 IST" duration-ms="10942">
       <class name="Base.RegisterPages">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:49 IST" name="startReport" finished-at="2025-04-22T15:01:50 IST" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:22:58 IST" name="startReport" finished-at="2025-04-22T15:22:58 IST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:50 IST" name="setup" finished-at="2025-04-22T15:01:53 IST" duration-ms="2864" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:22:58 IST" name="setup" finished-at="2025-04-22T15:23:01 IST" duration-ms="2601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:53 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:01:54 IST" duration-ms="1202" status="PASS">
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:01 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:23:02 IST" duration-ms="989" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:54 IST" name="end" finished-at="2025-04-22T15:01:54 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:02 IST" name="end" finished-at="2025-04-22T15:23:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:54 IST" name="setup" finished-at="2025-04-22T15:01:56 IST" duration-ms="1945" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:02 IST" name="setup" finished-at="2025-04-22T15:23:04 IST" duration-ms="1778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:56 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:01:57 IST" duration-ms="383" status="PASS">
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:04 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:23:04 IST" duration-ms="399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,15 +125,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:57 IST" name="end" finished-at="2025-04-22T15:01:57 IST" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:57 IST" name="setup" finished-at="2025-04-22T15:01:58 IST" duration-ms="1889" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:04 IST" name="setup" finished-at="2025-04-22T15:23:06 IST" duration-ms="1945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:58 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:01:59 IST" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:04 IST" name="end" finished-at="2025-04-22T15:23:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:06 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:23:06 IST" duration-ms="312" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,15 +184,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:59 IST" name="end" finished-at="2025-04-22T15:01:59 IST" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:06 IST" name="end" finished-at="2025-04-22T15:23:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:01:59 IST" name="setup" finished-at="2025-04-22T15:02:01 IST" duration-ms="2077" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:06 IST" name="setup" finished-at="2025-04-22T15:23:08 IST" duration-ms="1781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:02:01 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:02:01 IST" duration-ms="375" status="FAIL">
+        <test-method signature="run(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:08 IST" name="run" data-provider="regis" finished-at="2025-04-22T15:23:08 IST" duration-ms="403" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -242,13 +242,17 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<Please enter a valid email address.> but was:<Please enter a vsssalid email address.>]]>
+              <![CDATA[expected [Please enter a vaasslid email address.] but found [Please enter a valid email address.]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Please enter a valid email address.> but was:<Please enter a vsssalid email address.>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
-at Base.RegisterPages.run(RegisterPages.java:59)
+              <![CDATA[java.lang.AssertionError: expected [Please enter a vaasslid email address.] but found [Please enter a valid email address.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Base.RegisterPages.run(RegisterPages.java:62)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -283,11 +287,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:02:01 IST" name="end" finished-at="2025-04-22T15:02:01 IST" duration-ms="58" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:08 IST" name="end" finished-at="2025-04-22T15:23:08 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:02:01 IST" name="flushReport" finished-at="2025-04-22T15:02:01 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Base.RegisterPages@4d9e68d0]" started-at="2025-04-22T15:23:08 IST" name="flushReport" finished-at="2025-04-22T15:23:09 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
