@@ -50,6 +50,10 @@ public class RegisterPages extends baseClass {
 			AssertJUnit.assertEquals(driver.getTitle(),"Register" );
 			System.out.println("✅ Test Passed for INVALID data: " + na + " " + su);
 		}
+		if(conditio.equals("blank")) {
+			AssertJUnit.assertEquals(driver.getTitle(),"Register" );
+			System.out.println("✅ Test Passed for Blank Data data: " + na + " " + su);
+		}
 	}
 	
 	
