@@ -8,6 +8,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 import org.testng.AssertJUnit;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
@@ -44,15 +45,20 @@ public class RegisterPages extends baseClass {
 		
 		if(conditio.equals("Valid")) {
 			AssertJUnit.assertEquals(driver.getTitle(),"" );
-			System.out.println("✅ Test Passed for VALID data: " + na + " " + su);
+			System.out.println("Test Passed for VALID data: ");
 		}
-		if(conditio.equals("invalid")) {
+		else if(conditio.equals("invalid")) {
 			AssertJUnit.assertEquals(driver.getTitle(),"Register" );
-			System.out.println("✅ Test Passed for INVALID data: " + na + " " + su);
+			System.out.println("Test Passed for INVALID data ");
 		}
-		if(conditio.equals("blank")) {
+		else if(conditio.equals("blank")) {
 			AssertJUnit.assertEquals(driver.getTitle(),"Register" );
-			System.out.println("✅ Test Passed for Blank Data data: " + na + " " + su);
+			System.out.println("Test Passed for Blank Data data");
+		}
+		else if(conditio.equals("LongEmail")) {
+			AssertJUnit.assertEquals(driver.findElement(By.xpath("//*[@id=\"email-error\"]")).getText(),"Please enter a vsssalid email address." );
+			System.out.println("Test Passed for Longemail");
+		
 		}
 	}
 	
