@@ -7,7 +7,7 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Base.RegisterPages"/>
+      <class name="Base.RunClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

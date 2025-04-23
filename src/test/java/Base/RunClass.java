@@ -18,7 +18,7 @@ import Utilities.provide;
 
 
 
-public class RegisterPages extends baseClass {
+public class RunClass extends baseClass {
 	
 	ExtentReports extent;
 	ExtentTest test; 
@@ -27,7 +27,39 @@ public class RegisterPages extends baseClass {
 	public void startReport() {
 		extent = ExtentManager.getReportObject(); // report path is already set to src/test/resources/reports
 	}
-	@Test (dataProvider = "regis", dataProviderClass = provide.class)
+	@Test (dataProvider = "Login",dataProviderClass = provide.class,enabled = false)
+	void start(String em,String pa,String condition) {
+		test = extent.createTest("Login Test for: " ); 
+		lp.ema(em);
+		lp.pas(pa);
+		lp.cli();
+		lp.log();
+		if(condition.equals("valid"))
+		{
+			String act = driver.getCurrentUrl();
+	Assert.assertEquals(act, "https://javabykiran.in/other/CC/index.php?_a=account");
+		}
+		else if(condition.equals("blank")) {
+			AssertJUnit.assertEquals(driver.getTitle(),"Login" );
+			System.out.println("Test Passed for Blank Data data");
+		}
+else if(condition.equals("invalid")) {
+			
+	try {
+	    String actualError = driver.findElement(By.xpath("//*[@id=\"login-username-error\"]")).getText();
+	    String expectedError = "Please enter a valid email address.";
+	    Assert.assertEquals(actualError, expectedError);
+	    test.pass("Test Passed for Longemail");
+	} catch (AssertionError e) {
+	   
+	    throw e;
+	}
+		}
+		
+	}
+	
+	
+	@Test (dataProvider = "regis", dataProviderClass = provide.class, enabled=true)
 	void run(String ti,String na,String su,String em,String ph,String mo,String pa,String co,String conditio) {
 		
 		test = extent.createTest("Register Test for: " + na + " " + su); // log per dataset

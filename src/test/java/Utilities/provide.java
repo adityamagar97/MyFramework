@@ -46,7 +46,7 @@ public class provide {
 		DataFormatter df = new DataFormatter();
 		FileInputStream file = new FileInputStream("/Users/adityamagar/Desktop/TNS /Store_TestCases.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
-		XSSFSheet sheet = workbook.getSheet("adi");
+		XSSFSheet sheet = workbook.getSheet("logdet");
 		
 	    System.out.println("Reading From Sheet : " + sheet.getSheetName() );
 		
